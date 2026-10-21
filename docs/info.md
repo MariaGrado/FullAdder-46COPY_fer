@@ -9,12 +9,32 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project implements a one-bit full adder using
+combinational logic derived from Karnaugh maps.
+
+The original circuit was designed by Levi Feldman
+for Tiny Tapeout 7, project #46.
+
+Inputs:
+- ui[0]: A
+- ui[1]: B
+- ui[2]: Cin
+
+Outputs:
+- uo[0]: Sum
+- uo[1]: Cout
 
 ## How to test
 
-Explain how to use your project
+Apply the eight possible binary combinations to
+inputs A, B and Cin.
+
+Verify that the Sum and Cout outputs follow the
+truth table of a one-bit full adder.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+For physical testing, the Tiny Tapeout TT07
+demonstration board can be used to apply input
+signals and observe the outputs.
+
